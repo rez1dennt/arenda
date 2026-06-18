@@ -1,0 +1,141 @@
+- main [ref=e2]:
+  - generic [ref=e5]:
+    - heading "Аренда квадроциклов" [level=1] [ref=e6]:
+      - generic [ref=e7]: Аренда
+      - strong [ref=e8]: квадроциклов
+    - paragraph [ref=e9]:
+      - text: и активный отдых
+      - text: в Тверской области
+    - paragraph [ref=e10]:
+      - text: Маршруты по лесам и бездорожью.
+      - text: Незабываемые эмоции для компании,
+      - text: семьи и друзей.
+    - generic "Контакты и маршрут" [ref=e11]:
+      - link "Позвонить" [ref=e12] [cursor=pointer]:
+        - /url: tel:+79017207722
+        - img [ref=e13]
+        - text: Позвонить
+      - link "Whatsapp" [ref=e15] [cursor=pointer]:
+        - /url: https://wa.me/79017207722
+        - img [ref=e16]
+        - text: Whatsapp
+      - link "Построить маршрут" [ref=e18] [cursor=pointer]:
+        - /url: https://yandex.ru/maps/?text=%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%20%D0%9A%D0%B8%D0%BC%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%BF.%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2021
+        - img [ref=e19]
+        - text: Построить маршрут
+  - region "Контактная информация" [ref=e21]:
+    - link "+7 901 720-77-22" [ref=e22] [cursor=pointer]:
+      - /url: tel:+79017207722
+      - img [ref=e24]
+      - generic [ref=e26]: +7 901 720-77-22
+    - link "+7 977 512-22-88" [ref=e27] [cursor=pointer]:
+      - /url: tel:+79775122288
+      - img [ref=e29]
+      - generic [ref=e31]: +7 977 512-22-88
+    - generic [ref=e32]:
+      - img [ref=e34]
+      - generic [ref=e36]:
+        - text: Тверская область,
+        - text: Кимрский район, п. Лесной, 21
+  - generic [ref=e37]:
+    - heading "Что можно арендовать" [level=2] [ref=e38]
+    - generic [ref=e40]:
+      - article [ref=e41]:
+        - img "Квадроцикл на лесном маршруте" [ref=e42]
+        - generic [ref=e43]:
+          - heading "Квадроциклы" [level=3] [ref=e44]
+          - paragraph [ref=e45]:
+            - text: Поездки по лесным маршрутам
+            - text: и бездорожью.
+      - article [ref=e46]:
+        - img "Сап-борд на закате" [ref=e47]
+        - generic [ref=e48]:
+          - heading "Сап-борды" [level=3] [ref=e49]
+          - paragraph [ref=e50]:
+            - text: Отдых на воде и прогулки
+            - text: по живописным местам.
+      - article [ref=e51]:
+        - img "Компания у костра в лесу" [ref=e52]
+        - generic [ref=e53]:
+          - heading "Активный отдых" [level=3] [ref=e54]
+          - paragraph [ref=e55]:
+            - text: Маршруты и развлечения
+            - text: для компаний и семей.
+  - generic [ref=e56]:
+    - heading "Наши преимущества" [level=2] [ref=e57]
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - img [ref=e61]
+        - generic [ref=e63]:
+          - text: Живописные
+          - text: маршруты
+      - generic [ref=e64]:
+        - img [ref=e65]
+        - generic [ref=e67]:
+          - text: Исправная
+          - text: техника
+      - generic [ref=e68]:
+        - img [ref=e69]
+        - generic [ref=e71]:
+          - text: Инструктаж
+          - text: перед выездом
+      - generic [ref=e72]:
+        - img [ref=e73]
+        - generic [ref=e75]:
+          - text: Подходит
+          - text: новичкам
+      - generic [ref=e76]:
+        - img [ref=e77]
+        - generic [ref=e79]:
+          - text: Отдых
+          - text: круглый год
+      - generic [ref=e80]:
+        - img [ref=e81]
+        - generic [ref=e83]:
+          - text: Удобное
+          - text: расположение
+  - generic [ref=e84]:
+    - generic [ref=e85]:
+      - heading "Как нас найти" [level=2] [ref=e86]
+      - generic [ref=e88]:
+        - img [ref=e89]
+        - generic [ref=e91]:
+          - text: Тверская область,
+          - text: Кимрский район,
+          - text: п. Лесной, 21
+      - link "Открыть в Яндекс.Навигаторе" [ref=e92] [cursor=pointer]:
+        - /url: https://yandex.ru/maps/?text=%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%20%D0%9A%D0%B8%D0%BC%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%BF.%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2021
+        - img [ref=e93]
+        - text: Открыть
+        - text: в Яндекс.Навигаторе
+    - link "Открыть адрес на Яндекс.Картах" [ref=e95] [cursor=pointer]:
+      - /url: https://yandex.ru/maps/?ll=37.516389%2C56.970556&mode=search&sll=37.516389%2C56.970556&text=%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%20%D0%9A%D0%B8%D0%BC%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%BF.%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2021&z=10
+      - 'img "Яндекс.Карта: Тверская область, Кимрский район, п. Лесной, 21" [ref=e96]'
+      - generic [ref=e97]: п. Лесной, 21
+  - generic [ref=e98]:
+    - generic "Родные 69 Просторы" [ref=e99]:
+      - generic [ref=e100]: Родные
+      - generic [ref=e101]: "69"
+      - generic [ref=e102]: Просторы
+      - generic [ref=e103]: Твоя дорога драйва
+    - generic [ref=e104]:
+      - link "+7 901 720-77-22" [ref=e105] [cursor=pointer]:
+        - /url: tel:+79017207722
+        - img [ref=e107]
+        - text: +7 901 720-77-22
+      - link "+7 977 512-22-88" [ref=e109] [cursor=pointer]:
+        - /url: tel:+79775122288
+        - img [ref=e111]
+        - text: +7 977 512-22-88
+      - link "Whatsapp" [ref=e113] [cursor=pointer]:
+        - /url: https://wa.me/79017207722
+        - img [ref=e114]
+        - text: Whatsapp
+    - generic [ref=e116]:
+      - img [ref=e118]
+      - generic [ref=e120]:
+        - text: Тверская область,
+        - text: Кимрский район,
+        - text: п. Лесной, 21
+    - link "Забронировать отдых" [ref=e121] [cursor=pointer]:
+      - /url: tel:+79017207722
