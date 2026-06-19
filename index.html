@@ -9,10 +9,38 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Roboto+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <main class="site">
+    <header class="top-header" aria-label="Контакты">
+      <div class="section-inner top-header__inner">
+        <a class="top-header__address" href="https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17" target="_blank" rel="noopener">
+          <span class="round-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c-4 0-7.2 3.2-7.2 7.2 0 5.2 7.2 12.4 7.2 12.4s7.2-7.2 7.2-12.4c0-4-3.2-7.2-7.2-7.2zm0 10.1a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8z"/></svg></span>
+          <span>Тверская область,<br>Кимрский район, п. Лесной, 21</span>
+        </a>
+        <div class="top-header__contact">
+          <a class="top-header__phone" href="tel:+79017207722">+7 901 720-77-22</a>
+          <div class="messenger-row" aria-label="Мессенджеры для номера +7 901 720-77-22">
+            <a class="messenger-link messenger-link--max" href="tel:+79017207722" aria-label="MAX: +7 901 720-77-22" title="MAX">
+              <img src="assets/converted-2%201.svg" alt="" aria-hidden="true">
+            </a>
+            <a class="messenger-link messenger-link--whatsapp" href="https://wa.me/79017207722" target="_blank" rel="noopener" aria-label="WhatsApp: +7 901 720-77-22" title="WhatsApp">
+              <img src="assets/logo-whatsapp.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+        </div>
+        <div class="top-header__contact">
+          <a class="top-header__phone" href="tel:+79775122288">+7 977 512-22-88</a>
+          <div class="messenger-row" aria-label="Мессенджеры для номера +7 977 512-22-88">
+            <a class="messenger-link messenger-link--telegram" href="https://t.me/+79775122288" target="_blank" rel="noopener" aria-label="Telegram: +7 977 512-22-88" title="Telegram">
+              <img src="assets/logo-telegram.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <section class="hero" id="top">
       <div class="hero__shade"></div>
       <div class="section-inner hero__inner">
@@ -30,31 +58,14 @@
             </a>
             <a class="btn btn--green" href="https://wa.me/79017207722" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.1 2C6.7 2 2.3 6.3 2.3 11.7c0 1.7.5 3.4 1.3 4.8L2 22l5.6-1.5c1.4.8 2.9 1.1 4.5 1.1 5.4 0 9.8-4.3 9.8-9.7S17.5 2 12.1 2zm0 17.9c-1.4 0-2.7-.4-3.9-1.1l-.3-.2-3.3.9.9-3.2-.2-.3c-.8-1.2-1.2-2.7-1.2-4.2 0-4.5 3.6-8.1 8.1-8.1s8.1 3.6 8.1 8.1-3.7 8.1-8.2 8.1zm4.4-6.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.6-1.5-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.5 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.7.1.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .2-1.1-.1-.2-.3-.3-.5-.4z"/></svg>
-              Whatsapp
+              WhatsApp
             </a>
-            <a class="btn btn--yellow btn--wide" href="https://yandex.ru/maps/?text=%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%20%D0%9A%D0%B8%D0%BC%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%BF.%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2021" target="_blank" rel="noopener">
+            <a class="btn btn--yellow btn--wide" href="https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.2 2.7 10.8c-.8.3-.8 1.4.1 1.6l7 1.6 1.6 7c.2.8 1.3.9 1.6.1l7.7-18.8c.3-.7-.4-1.4-1.2-1.1zm-4.2 4-5.5 13.2-1.2-5.6 4.8-4.8-6.4 3-5.6-1.2 13.9-4.6z"/></svg>
               Построить маршрут
             </a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="contact-strip" aria-label="Контактная информация">
-      <div class="section-inner contact-strip__inner">
-        <a class="strip-item" href="tel:+79017207722">
-          <span class="round-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.6 3.2 3.4 5 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.7 21.7 2.3 13.3 2.3 3.8c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.7.1.4 0 .8-.3 1.1l-1.6 2.2z"/></svg></span>
-          <span>+7 901 720-77-22</span>
-        </a>
-        <a class="strip-item" href="tel:+79775122288">
-          <span class="round-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.6 3.2 3.4 5 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.7 21.7 2.3 13.3 2.3 3.8c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.7.1.4 0 .8-.3 1.1l-1.6 2.2z"/></svg></span>
-          <span>+7 977 512-22-88</span>
-        </a>
-        <address class="strip-item">
-          <span class="round-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c-4 0-7.2 3.2-7.2 7.2 0 5.2 7.2 12.4 7.2 12.4s7.2-7.2 7.2-12.4c0-4-3.2-7.2-7.2-7.2zm0 10.1a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8z"/></svg></span>
-          <span>Тверская область,<br>Кимрский район, п. Лесной, 21</span>
-        </address>
       </div>
     </section>
 
@@ -142,14 +153,14 @@
           </svg>
           <span>Отдых<br>круглый год</span>
         </div>
-        <div class="benefit">
+        <a class="benefit benefit--link" href="https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17" target="_blank" rel="noopener">
           <svg viewBox="0 0 48 48" aria-hidden="true">
             <path d="M24 43s14-15 14-27A14 14 0 0 0 10 16c0 12 14 27 14 27z"/>
             <circle cx="24" cy="16" r="5"/>
             <path d="M14 39h20"/>
           </svg>
           <span>Удобное<br>расположение</span>
-        </div>
+        </a>
       </div>
     </section>
 
@@ -161,80 +172,65 @@
           <table class="price-table">
             <thead>
               <tr>
-                <th>Услуга</th>
-                <th>Условия</th>
-                <th>В стоимость входит</th>
-                <th>Цена</th>
+                <th>№</th>
+                <th>Услуга и цена</th>
+                <th>Подробности</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td data-label="Услуга">
-                  <strong>Аренда квадроцикла</strong>
-                  <span>Мощность 200 куб. см</span>
-                </td>
-                <td data-label="Условия">Общий вес до 150 кг, не более 2 человек</td>
-                <td data-label="В стоимость входит">Подготовленная техника, маршрут, инструктаж перед выездом</td>
-                <td data-label="Цена" class="price-value">5000 руб./час</td>
+                <td data-label="№">1.</td>
+                <td data-label="Услуга и цена">Аренда квадроцикла мощность 200 кубических сантиметров = 5000 рублей в час</td>
+                <td data-label="Подробности">(общий вес до 150кг. не более 2-х человек).</td>
               </tr>
               <tr>
-                <td data-label="Услуга">
-                  <strong>Комплекс: домик рыбака + лодка</strong>
-                  <span>Домик на 4 человек и лодка ПНД Парус 400R, двигатель 9,9 л/с</span>
-                </td>
-                <td data-label="Условия">Сутки. Заезд 12:00, выезд 14:00</td>
-                <td data-label="В стоимость входит">
+                <td data-label="№">2.</td>
+                <td data-label="Услуга и цена">Комплекс аренда домика рыбака на 4-х человек и лодка пнд Парус 400R с двигателем 9,9 л/с (включено 10 литров бензина) = 13000 рублей в сутки. (заезд 12.00 выезд 14.00).</td>
+                <td data-label="Подробности">
+                  <strong>Входит в стоимость:</strong>
                   <ul>
-                    <li>4 односпальные кровати: матрас, подушка, одеяло, белье</li>
-                    <li>Стол, холодильник, микроволновка, чайник, газовая плита</li>
-                    <li>10 литров бензина, спасжилеты, мангал</li>
-                    <li>Уличные туалет и душ с подогревом, зона под шатром</li>
-                  </ul>
-                  <small>Дополнительное место: раскладушка 1000 руб./сутки</small>
-                </td>
-                <td data-label="Цена" class="price-value">13000 руб./сутки</td>
-              </tr>
-              <tr>
-                <td data-label="Услуга">
-                  <strong>Аренда домика рыбака</strong>
-                  <span>Домик на 4 человек</span>
-                </td>
-                <td data-label="Условия">Сутки. Заезд 12:00, выезд 14:00</td>
-                <td data-label="В стоимость входит">Базовое размещение для отдыха у воды</td>
-                <td data-label="Цена" class="price-value">8000 руб./сутки</td>
-              </tr>
-              <tr>
-                <td data-label="Услуга">
-                  <strong>Аренда лодки</strong>
-                  <span>ПНД Парус 400R, двигатель 9,9 л/с</span>
-                </td>
-                <td data-label="Условия">Минимум 2 часа</td>
-                <td data-label="В стоимость входит">5 литров бензина, спасжилеты</td>
-                <td data-label="Цена" class="price-value">3000 руб./час</td>
-              </tr>
-              <tr>
-                <td data-label="Услуга">
-                  <strong>Баня-палатка Мобиба</strong>
-                  <span>До 5 человек</span>
-                </td>
-                <td data-label="Условия">Базовая аренда на 3 часа</td>
-                <td data-label="В стоимость входит">Подготовленная мобильная баня для компании</td>
-                <td data-label="Цена" class="price-value">5000 руб./3 часа<br><small>+1000 руб. за доп. час</small></td>
-              </tr>
-              <tr>
-                <td data-label="Услуга">
-                  <strong>Место под палатку</strong>
-                  <span>Одна машина, не более 5 человек</span>
-                </td>
-                <td data-label="Условия">Сутки. Заезд 12:00, выезд 14:00</td>
-                <td data-label="В стоимость входит">
-                  <ul>
-                    <li>Уличные пластиковые туалет и душ с подогревом воды</li>
-                    <li>Электрическая розетка</li>
-                    <li>Обеденная зона под шатром</li>
+                    <li>Кровать односпальная 4 штуки (матрас, подушка, одеяло, постельное белье).</li>
+                    <li>Обеденный стол</li>
+                    <li>Холодильник</li>
+                    <li>Микроволновая печь</li>
+                    <li>Электрический чайник</li>
+                    <li>Газовая плита</li>
+                    <li>Дополнительное место раскладушка 1000 рублей в сутки.</li>
+                    <li>Пластиковая туалетная кабина уличная.</li>
+                    <li>Пластиковый душ уличный с подогревом воды.</li>
+                    <li>Обеденная зона под шатром.</li>
+                    <li>Спасжилеты входят в стоимость.</li>
+                    <li>Мангал</li>
                   </ul>
                 </td>
-                <td data-label="Цена" class="price-value">3000 руб./сутки</td>
+              </tr>
+              <tr>
+                <td data-label="№">3.</td>
+                <td data-label="Услуга и цена">Аренда домика рыбака на 4-х человек = 8000 рублей в сутки</td>
+                <td data-label="Подробности">(заезд 12.00 выезд 14.00).</td>
+              </tr>
+              <tr>
+                <td data-label="№">4.</td>
+                <td data-label="Услуга и цена">Аренда лодки пнд Парус 400R с двигателем 9,9 л/с (включено 5 литров бензина) = 3000 рублей в час.</td>
+                <td data-label="Подробности">Минимум 2 часа. Спасжилеты входят в стоимость.</td>
+              </tr>
+              <tr>
+                <td data-label="№">5.</td>
+                <td data-label="Услуга и цена">Баня палатка Мобиба (до 5 человек) – за 3 часа = 5000 рублей</td>
+                <td data-label="Подробности">каждый дополнительный час 1000 рублей.</td>
+              </tr>
+              <tr>
+                <td data-label="№">6.</td>
+                <td data-label="Услуга и цена">Аренда места под палатку = 3000 рублей в сутки. (одна машина не более 5 человек. (заезд 12.00 выезд 14.00).</td>
+                <td data-label="Подробности">
+                  <strong>Входит в стоимость:</strong>
+                  <ul>
+                    <li>Пластиковая туалетная кабина уличная.</li>
+                    <li>Пластиковый душ уличный с подогревом воды.</li>
+                    <li>Розетка электрическая.</li>
+                    <li>Обеденная зона под шатром.</li>
+                  </ul>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -251,15 +247,15 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c-4 0-7.2 3.2-7.2 7.2 0 5.2 7.2 12.4 7.2 12.4s7.2-7.2 7.2-12.4c0-4-3.2-7.2-7.2-7.2zm0 10.1a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8z"/></svg>
             <span>Тверская область,<br>Кимрский район,<br>п. Лесной, 21</span>
           </address>
-          <a class="btn btn--yellow btn--map" href="https://yandex.ru/maps/?text=%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%20%D0%9A%D0%B8%D0%BC%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%BF.%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2021" target="_blank" rel="noopener">
+          <a class="btn btn--yellow btn--map" href="https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.2 2.7 10.8c-.8.3-.8 1.4.1 1.6l7 1.6 1.6 7c.2.8 1.3.9 1.6.1l7.7-18.8c.3-.7-.4-1.4-1.2-1.1zm-4.2 4-5.5 13.2-1.2-5.6 4.8-4.8-6.4 3-5.6-1.2 13.9-4.6z"/></svg>
-            Открыть<br>в Яндекс.Навигаторе
+            Открыть<br>в Яндекс.Картах
           </a>
         </div>
         <iframe
           class="map-canvas"
-          title="Яндекс.Карта: Тверская область, Кимрский район, п. Лесной, 21"
-          src="https://yandex.ru/map-widget/v1/?ll=37.516389%2C56.970556&mode=whatshere&whatshere%5Bpoint%5D=37.516389%2C56.970556&whatshere%5Bzoom%5D=17&z=16"
+          title="Яндекс.Карта: точка 56.969786, 37.518327"
+          src="https://yandex.ru/map-widget/v1/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=16"
           allowfullscreen>
         </iframe>
       </div>
@@ -268,18 +264,31 @@
     <footer class="footer">
       <div class="brand-mark" aria-label="Родные 69 Просторы">
         <span class="brand-word">Родные</span>
-        <span class="brand-number">69</span>
+        <span class="brand-number" aria-hidden="true"><span>6</span><span>9</span></span>
         <span class="brand-word">Просторы</span>
-        <small>Твоя дорога <b>драйва</b></small>
+        <small><span>Аренда квадроциклов</span><b>Активный отдых</b></small>
       </div>
       <div class="footer__contacts">
-        <a href="tel:+79017207722"><span class="small-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.6 3.2 3.4 5 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.7 21.7 2.3 13.3 2.3 3.8c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.7.1.4 0 .8-.3 1.1l-1.6 2.2z"/></svg></span>+7 901 720-77-22</a>
-        <a href="tel:+79775122288"><span class="small-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.6 3.2 3.4 5 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.7 21.7 2.3 13.3 2.3 3.8c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.7.1.4 0 .8-.3 1.1l-1.6 2.2z"/></svg></span>+7 977 512-22-88</a>
+        <div class="footer-contact">
+          <a href="tel:+79017207722"><span class="small-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.6 3.2 3.4 5 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.7 21.7 2.3 13.3 2.3 3.8c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.7.1.4 0 .8-.3 1.1l-1.6 2.2z"/></svg></span>+7 901 720-77-22</a>
+          <div class="footer-messengers">
+            <a class="messenger-link messenger-link--max" href="tel:+79017207722" aria-label="MAX: +7 901 720-77-22" title="MAX">
+              <img src="assets/converted-2%201.svg" alt="" aria-hidden="true">
+            </a>
+            <a class="messenger-link messenger-link--whatsapp" href="https://wa.me/79017207722" target="_blank" rel="noopener" aria-label="WhatsApp: +7 901 720-77-22" title="WhatsApp">
+              <img src="assets/logo-whatsapp.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <a href="tel:+79775122288"><span class="small-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.6 3.2 3.4 5 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.7 21.7 2.3 13.3 2.3 3.8c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.7.1.4 0 .8-.3 1.1l-1.6 2.2z"/></svg></span>+7 977 512-22-88</a>
+          <div class="footer-messengers">
+            <a class="messenger-link messenger-link--telegram" href="https://t.me/+79775122288" target="_blank" rel="noopener" aria-label="Telegram: +7 977 512-22-88" title="Telegram">
+              <img src="assets/logo-telegram.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+        </div>
       </div>
-      <a class="btn btn--green footer-whatsapp" href="https://wa.me/79017207722" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.1 2C6.7 2 2.3 6.3 2.3 11.7c0 1.7.5 3.4 1.3 4.8L2 22l5.6-1.5c1.4.8 2.9 1.1 4.5 1.1 5.4 0 9.8-4.3 9.8-9.7S17.5 2 12.1 2zm4.4 11.8c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.6-1.5-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.5 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.7.1.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .2-1.1-.1-.2-.3-.3-.5-.4z"/></svg>
-        Whatsapp
-      </a>
       <address class="footer__address">
         <span class="small-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c-4 0-7.2 3.2-7.2 7.2 0 5.2 7.2 12.4 7.2 12.4s7.2-7.2 7.2-12.4c0-4-3.2-7.2-7.2-7.2zm0 10.1a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8z"/></svg></span>
         <span>Тверская область,<br>Кимрский район,<br>п. Лесной, 21</span>
