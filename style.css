@@ -1076,29 +1076,51 @@ h2 {
 
   .price-table th,
   .price-table td {
-    padding: 12px 11px;
+    padding: 15px 13px;
   }
 
   .price-table td {
-    font-size: 16px;
-    line-height: 1.26;
+    font-size: 17px;
+    line-height: 1.34;
+  }
+
+  .price-table tbody tr:nth-child(odd) {
+    background: rgba(255,255,255,.018);
+  }
+
+  .price-table tbody tr:nth-child(even) {
+    background: rgba(248,174,8,.035);
+  }
+
+  .price-table tbody tr + tr td {
+    border-top: 2px solid rgba(248,174,8,.18);
   }
 
   .price-table th {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .price-table td:first-child {
-    width: 48px;
-    font-size: 22px;
+    width: 54px;
+    padding-inline: 8px;
+    font-size: 26px;
+    line-height: 1;
   }
 
   .price-table strong {
-    font-size: 19px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-size: 21px;
+  }
+
+  .price-table ul {
+    gap: 9px;
   }
 
   .price-table li {
-    font-size: 15px;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 1.3;
   }
 
   .rental-card {
@@ -1115,16 +1137,44 @@ h2 {
   }
 
   .brand-mark {
-    grid-template-columns: max-content max-content;
+    grid-template-columns: max-content max-content max-content;
+    gap: 6px;
+    align-items: center;
+  }
+
+  .brand-word {
+    font-size: clamp(24px, 7.6vw, 30px);
+    line-height: 1;
+  }
+
+  .brand-number {
+    width: 96px;
+    height: 58px;
+    font-size: 36px;
+  }
+
+  .brand-number span {
+    width: 54px;
+    height: 54px;
+    margin-inline: -4px;
+  }
+
+  .brand-number span::before {
+    inset: 6px;
+    border-width: 2px;
+    box-shadow:
+      inset 0 0 10px rgba(255,255,255,.28),
+      0 0 0 3px rgba(0,0,0,.72);
   }
 
   .brand-mark .brand-word:last-of-type {
-    grid-column: 1 / 3;
+    grid-column: auto;
   }
 
   .brand-mark small {
-    grid-column: 1 / 3;
-    padding-left: 8px;
+    grid-column: 1 / -1;
+    margin-top: 2px;
+    padding-left: 12px;
   }
 
   .brand-mark small::after {

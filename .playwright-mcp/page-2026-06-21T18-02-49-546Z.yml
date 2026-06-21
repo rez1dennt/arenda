@@ -1,0 +1,295 @@
+- main [ref=e2]:
+  - generic "Контакты" [ref=e3]:
+    - generic [ref=e4]:
+      - link "Тверская область, Кимрский район, п. Лесной, 21" [ref=e5] [cursor=pointer]:
+        - /url: https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17
+        - img [ref=e7]
+        - generic [ref=e9]:
+          - text: Тверская область,
+          - text: Кимрский район, п. Лесной, 21
+      - generic [ref=e10]:
+        - link "+7 901 720-77-22" [ref=e11] [cursor=pointer]:
+          - /url: tel:+79017207722
+        - generic "Мессенджеры для номера +7 901 720-77-22" [ref=e12]:
+          - 'link "MAX: +7 901 720-77-22" [ref=e13] [cursor=pointer]':
+            - /url: tel:+79017207722
+            - img [ref=e14]
+          - 'link "WhatsApp: +7 901 720-77-22" [ref=e15] [cursor=pointer]':
+            - /url: https://wa.me/79017207722
+            - img [ref=e16]
+      - generic [ref=e17]:
+        - link "+7 977 512-22-88" [ref=e18] [cursor=pointer]:
+          - /url: tel:+79775122288
+        - generic "Мессенджеры для номера +7 977 512-22-88" [ref=e19]:
+          - 'link "Telegram: +7 977 512-22-88" [ref=e20] [cursor=pointer]':
+            - /url: https://t.me/+79775122288
+            - img [ref=e21]
+  - generic [ref=e25]:
+    - heading "Аренда квадроциклов" [level=1] [ref=e26]:
+      - generic [ref=e27]: Аренда
+      - strong [ref=e28]: квадроциклов
+    - paragraph [ref=e29]:
+      - text: и активный отдых
+      - text: в Тверской области
+    - paragraph [ref=e30]:
+      - text: Маршруты по лесам и бездорожью.
+      - text: Незабываемые эмоции для компании,
+      - text: семьи и друзей.
+    - generic "Контакты и маршрут" [ref=e31]:
+      - link "Позвонить" [ref=e32] [cursor=pointer]:
+        - /url: tel:+79017207722
+        - img [ref=e33]
+        - text: Позвонить
+      - link "WhatsApp" [ref=e35] [cursor=pointer]:
+        - /url: https://wa.me/79017207722
+        - img [ref=e36]
+        - text: WhatsApp
+      - link "Построить маршрут" [ref=e38] [cursor=pointer]:
+        - /url: https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17
+        - img [ref=e39]
+        - text: Построить маршрут
+  - generic [ref=e41]:
+    - heading "Что можно арендовать" [level=2] [ref=e42]
+    - generic [ref=e44]:
+      - article [ref=e45]:
+        - img "Квадроцикл на лесном маршруте" [ref=e46]
+        - generic [ref=e47]:
+          - heading "Квадроциклы" [level=3] [ref=e48]
+          - paragraph [ref=e49]:
+            - text: Поездки по лесным маршрутам
+            - text: и бездорожью.
+      - article [ref=e50]:
+        - img "Сап-борд на закате" [ref=e51]
+        - generic [ref=e52]:
+          - heading "Сап-борды" [level=3] [ref=e53]
+          - paragraph [ref=e54]:
+            - text: Отдых на воде и прогулки
+            - text: по живописным местам.
+      - article [ref=e55]:
+        - img "Компания у костра в лесу" [ref=e56]
+        - generic [ref=e57]:
+          - heading "Активный отдых" [level=3] [ref=e58]
+          - paragraph [ref=e59]:
+            - text: Маршруты и развлечения
+            - text: для компаний и семей.
+  - generic [ref=e60]:
+    - heading "Наши преимущества" [level=2] [ref=e61]
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - img [ref=e65]
+        - generic [ref=e69]:
+          - text: Живописные
+          - text: маршруты
+      - generic [ref=e70]:
+        - img [ref=e71]
+        - generic [ref=e77]:
+          - text: Исправная
+          - text: техника
+      - generic [ref=e78]:
+        - img [ref=e79]
+        - generic [ref=e83]:
+          - text: Инструктаж
+          - text: перед выездом
+      - generic [ref=e84]:
+        - img [ref=e85]
+        - generic [ref=e89]:
+          - text: Подходит
+          - text: новичкам
+      - generic [ref=e90]:
+        - img [ref=e91]
+        - generic [ref=e98]:
+          - text: Отдых
+          - text: круглый год
+      - link "Удобное расположение" [ref=e99] [cursor=pointer]:
+        - /url: https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17
+        - img [ref=e100]
+        - generic [ref=e103]:
+          - text: Удобное
+          - text: расположение
+  - generic [ref=e105]:
+    - heading "Прайс-лист на услуги" [level=2] [ref=e106]
+    - table [ref=e109]:
+      - rowgroup [ref=e110]:
+        - row "№ Описание" [ref=e111]:
+          - columnheader "№" [ref=e112]
+          - columnheader "Описание" [ref=e113]
+      - rowgroup [ref=e114]:
+        - row "1. Аренда квадроцикла мощность 200 кубических сантиметров = 5000 рублей в час (общий вес до 150кг. не более 2-х человек)." [ref=e115]:
+          - cell "1." [ref=e116]
+          - cell "Аренда квадроцикла мощность 200 кубических сантиметров = 5000 рублей в час (общий вес до 150кг. не более 2-х человек)." [ref=e117]
+        - 'row "2. Комплекс аренда домика рыбака на 4-х человек и лодка пнд Парус 400R с двигателем 9,9 л/с (включено 10 литров бензина) = 13000 рублей в сутки. (заезд 12.00 выезд 14.00). Входит в стоимость: Кровать односпальная 4 штуки (матрас, подушка, одеяло, постельное белье). Обеденный стол Холодильник Микроволновая печь Электрический чайник Газовая плита Дополнительное место раскладушка 1000 рублей в сутки. Пластиковая туалетная кабина уличная. Пластиковый душ уличный с подогревом воды. Обеденная зона под шатром. Спасжилеты входят в стоимость. Мангал" [ref=e118]':
+          - cell "2." [ref=e119]
+          - 'cell "Комплекс аренда домика рыбака на 4-х человек и лодка пнд Парус 400R с двигателем 9,9 л/с (включено 10 литров бензина) = 13000 рублей в сутки. (заезд 12.00 выезд 14.00). Входит в стоимость: Кровать односпальная 4 штуки (матрас, подушка, одеяло, постельное белье). Обеденный стол Холодильник Микроволновая печь Электрический чайник Газовая плита Дополнительное место раскладушка 1000 рублей в сутки. Пластиковая туалетная кабина уличная. Пластиковый душ уличный с подогревом воды. Обеденная зона под шатром. Спасжилеты входят в стоимость. Мангал" [ref=e120]':
+            - text: Комплекс аренда домика рыбака на 4-х человек и лодка пнд Парус 400R с двигателем 9,9 л/с (включено 10 литров бензина) = 13000 рублей в сутки. (заезд 12.00 выезд 14.00).
+            - strong [ref=e121]: "Входит в стоимость:"
+            - list [ref=e122]:
+              - listitem [ref=e123]: Кровать односпальная 4 штуки (матрас, подушка, одеяло, постельное белье).
+              - listitem [ref=e124]: Обеденный стол
+              - listitem [ref=e125]: Холодильник
+              - listitem [ref=e126]: Микроволновая печь
+              - listitem [ref=e127]: Электрический чайник
+              - listitem [ref=e128]: Газовая плита
+              - listitem [ref=e129]: Дополнительное место раскладушка 1000 рублей в сутки.
+              - listitem [ref=e130]: Пластиковая туалетная кабина уличная.
+              - listitem [ref=e131]: Пластиковый душ уличный с подогревом воды.
+              - listitem [ref=e132]: Обеденная зона под шатром.
+              - listitem [ref=e133]: Спасжилеты входят в стоимость.
+              - listitem [ref=e134]: Мангал
+        - row "3. Аренда домика рыбака на 4-х человек = 8000 рублей в сутки (заезд 12.00 выезд 14.00)." [ref=e135]:
+          - cell "3." [ref=e136]
+          - cell "Аренда домика рыбака на 4-х человек = 8000 рублей в сутки (заезд 12.00 выезд 14.00)." [ref=e137]
+        - row "4. Аренда лодки пнд Парус 400R с двигателем 9,9 л/с (включено 5 литров бензина) = 3000 рублей в час. Минимум 2 часа. Спасжилеты входят в стоимость." [ref=e138]:
+          - cell "4." [ref=e139]
+          - cell "Аренда лодки пнд Парус 400R с двигателем 9,9 л/с (включено 5 литров бензина) = 3000 рублей в час. Минимум 2 часа. Спасжилеты входят в стоимость." [ref=e140]
+        - row "5. Баня палатка Мобиба (до 5 человек) – за 3 часа = 5000 рублей, каждый дополнительный час 1000 рублей." [ref=e141]:
+          - cell "5." [ref=e142]
+          - cell "Баня палатка Мобиба (до 5 человек) – за 3 часа = 5000 рублей, каждый дополнительный час 1000 рублей." [ref=e143]
+        - 'row "6. Аренда места под палатку = 3000 рублей в сутки. (одна машина не более 5 человек. (заезд 12.00 выезд 14.00). Входит в стоимость: Пластиковая туалетная кабина уличная. Пластиковый душ уличный с подогревом воды. Розетка электрическая. Обеденная зона под шатром." [ref=e144]':
+          - cell "6." [ref=e145]
+          - 'cell "Аренда места под палатку = 3000 рублей в сутки. (одна машина не более 5 человек. (заезд 12.00 выезд 14.00). Входит в стоимость: Пластиковая туалетная кабина уличная. Пластиковый душ уличный с подогревом воды. Розетка электрическая. Обеденная зона под шатром." [ref=e146]':
+            - text: Аренда места под палатку = 3000 рублей в сутки. (одна машина не более 5 человек. (заезд 12.00 выезд 14.00).
+            - strong [ref=e147]: "Входит в стоимость:"
+            - list [ref=e148]:
+              - listitem [ref=e149]: Пластиковая туалетная кабина уличная.
+              - listitem [ref=e150]: Пластиковый душ уличный с подогревом воды.
+              - listitem [ref=e151]: Розетка электрическая.
+              - listitem [ref=e152]: Обеденная зона под шатром.
+  - generic [ref=e154]:
+    - generic [ref=e155]:
+      - heading "Как нас найти" [level=2] [ref=e156]
+      - generic [ref=e158]:
+        - img [ref=e159]
+        - generic [ref=e161]:
+          - text: Тверская область,
+          - text: Кимрский район,
+          - text: п. Лесной, 21
+      - link "Открыть в Яндекс.Картах" [ref=e162] [cursor=pointer]:
+        - /url: https://yandex.ru/maps/?ll=37.518327%2C56.969786&pt=37.518327%2C56.969786%2Cpm2rdm&z=17
+        - img [ref=e163]
+        - text: Открыть
+        - text: в Яндекс.Картах
+    - iframe [ref=e165]:
+      - generic [ref=f1e2]:
+        - generic:
+          - generic:
+            - generic [ref=f1e6]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic [ref=f1e7]:
+                    - generic [ref=f1e8]:
+                      - button [ref=f1e11] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - img
+                      - button "Пробки" [ref=f1e13] [cursor=pointer]:
+                        - generic [ref=f1e14]:
+                          - generic:
+                            - img
+                        - generic [ref=f1e16]: Пробки
+                    - iframe [ref=f1e17]:
+                      
+                  - generic [ref=f1e18]:
+                    - generic [ref=f1e21]:
+                      - button "Приблизить" [ref=f1e23] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - img
+                      - button "Отдалить" [ref=f1e25] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - img
+                    - iframe [ref=f1e26]:
+                      
+                  - generic [ref=f1e27]:
+                    - button "Моё местоположение" [ref=f1e30] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - img
+                    - iframe [ref=f1e31]:
+                      
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Открыть в Яндекс Картах":
+                          - generic:
+                            - generic:
+                              - img
+                          - generic: Открыть в Яндекс Картах
+                    - iframe [ref=f1e32]:
+                      
+                  - generic [ref=f1e33]:
+                    - button "Открыть в Картах" [ref=f1e36] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic [ref=f1e37]: Открыть в Картах
+                    - iframe [ref=f1e38]:
+                      
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button:
+                          - generic:
+                            - generic:
+                              - img
+                    - iframe [ref=f1e39]:
+                      
+                - generic:
+                  - generic:
+                    - contentinfo:
+                      - link "Условия использования" [ref=f1e42] [cursor=pointer]:
+                        - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 100 м
+                - iframe [ref=f1e43]:
+                  
+            - iframe [ref=f1e44]:
+              
+  - generic [ref=e166]:
+    - generic "Родные 69 Просторы" [ref=e167]:
+      - generic [ref=e168]: Родные
+      - generic [ref=e169]:
+        - generic [ref=e170]: "6"
+        - generic [ref=e171]: "9"
+      - generic [ref=e172]: Просторы
+      - generic [ref=e173]:
+        - generic [ref=e174]: Аренда квадроциклов
+        - generic [ref=e175]: Активный отдых
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - link "+7 901 720-77-22" [ref=e178] [cursor=pointer]:
+          - /url: tel:+79017207722
+          - img [ref=e180]
+          - text: +7 901 720-77-22
+        - generic [ref=e182]:
+          - 'link "MAX: +7 901 720-77-22" [ref=e183] [cursor=pointer]':
+            - /url: tel:+79017207722
+            - img [ref=e184]
+          - 'link "WhatsApp: +7 901 720-77-22" [ref=e185] [cursor=pointer]':
+            - /url: https://wa.me/79017207722
+            - img [ref=e186]
+      - generic [ref=e187]:
+        - link "+7 977 512-22-88" [ref=e188] [cursor=pointer]:
+          - /url: tel:+79775122288
+          - img [ref=e190]
+          - text: +7 977 512-22-88
+        - 'link "Telegram: +7 977 512-22-88" [ref=e193] [cursor=pointer]':
+          - /url: https://t.me/+79775122288
+          - img [ref=e194]
+    - generic [ref=e195]:
+      - img [ref=e197]
+      - generic [ref=e199]:
+        - text: Тверская область,
+        - text: Кимрский район,
+        - text: п. Лесной, 21
+    - link "Забронировать отдых" [ref=e200] [cursor=pointer]:
+      - /url: tel:+79017207722
